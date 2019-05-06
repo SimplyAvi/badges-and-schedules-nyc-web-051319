@@ -7,10 +7,15 @@ end
 def batch_badge_creator(attendees)
   arr1 = []
   attendees.each do |name|
-    attendees.push("Hello, my name is #{name}")
+    arr1.push("Hello, my name is #{name}")
   end
 end
 
-def assign_rooms(list_of_speakr)
-  "Hello, _____! You'll be assigned to room _____!"
+def assign_rooms(attendees)
+  room = 1 
+arr2 = []
+  while room < 8
+  attendees.each do |name|
+  arr2.push("Hello, #{name}! You'll be assigned to room _#{room}!"
+  room +=1
 end
