@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
   arr1 = []
   attendees.each do |name|
     attendees.push("Hello, my name is #{name}")
-  
+  end
 end
 
 def assign_rooms(list_of_speakr)
