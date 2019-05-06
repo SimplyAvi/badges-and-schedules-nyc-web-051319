@@ -9,6 +9,7 @@ def batch_badge_creator(attendees)
   attendees.each do |name|
     arr1.push("Hello, my name is #{name}")
   end
+  return arr1
 end
 
 def assign_rooms(attendees)
@@ -18,4 +19,6 @@ def assign_rooms(attendees)
   attendees.each do |name|
   arr2.push("Hello, #{name}! You'll be assigned to room _#{room}!"
   room +=1
+end
+return arr2
 end
