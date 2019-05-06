@@ -1,5 +1,8 @@
 # Write your code here.
 
+def badge_maker(name)
+  return 
+
 def batch_badge_creator(array_of_names)
   
 end
