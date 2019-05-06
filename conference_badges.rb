@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   room = 1 
-arr2 = []
+  arr2 = []
   while room < 8
   attendees.each do |name|
   arr2.push("Hello, #{name}! You'll be assigned to room _#{room}!"
